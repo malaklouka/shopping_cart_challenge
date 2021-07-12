@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="C:\Users\MALEK\Desktop\GoMyCode\shoppingcart\css\style.css"
+    />
+
+    <title>shoppingcart</title>
+    <link rel="icon" type="image/gif/png" href="../shoppingcart/css/img/lg.png">
+  </head>
+  <body>
+    <div class="bar">
+      <h1>
+        <a href="/">
+          <img class="logo" src="../shoppingcart/css/img/catlg.png" alt=""/>
+        </a>
+      </h1>
+    <div class="topnav">
+      <a id="panier" href="/panier"> 
+        <i class="fa fa-shopping-cart"></i> <span class="cart-label">Mon panier</span></a>
+      <div class="search-container"> <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form></div>
+      
+     
+      
+         </div>
+        
+  </div>
+    <div class="shopping-cart">
+    
+      <!-- Title -->
+      <div class="title">
+      
+     
+      
+
+<div id="div1" class="fa"></div> Buy now!
+<!--animated icon-->
+<script>
+function hourglass() {
+  var a;
+  a = document.getElementById("div1");
+  a.innerHTML = "&#xf251;";
+  setTimeout(function () {
+      a.innerHTML = "&#xf252;";
+    }, 1000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf253;";
+    }, 2000);
+}
+hourglass();
+setInterval(hourglass, 3000);
+</script>
+</div>
+      <!--prod1-->
+      <div class="lin1">
+        <div class="item">
+          <div class="buttons">
+            <div class="delete-btn">
+              <i class="fa fa-trash" style="color: rgb(8, 8, 8)"></i>
+            </div>
+
+            <div class="like-btn">
+              <i
+                onclick="myFunction(this)"
+                class="fa fa-heart"
+                style="color: red"
+              ></i>
+            </div>
+          </div>
+
+          <div class="image">
+            <img  width="120 " height="100" src="../shoppingcart/css/img/go1.png" alt="" />
+          </div>
+
+          <div class="description">
+            <span>GO!Solutions</span>
+           
+            <span>GRAIN-FREE DUCK</span>
+          </div>
+
+          <div class="quantity">
+            <span class="plus ">+</span>
+            <span class="quantite ">0</span>
+            <span class="minus ">-</span>
+          </div>
+          <div>
+            <h4 class="price ">
+            54
+            </h4>
+            <h4 class="prix "> </h4>
+
+        </div>
+        </div>
+      </div>
+      <div class="lin2">
+        <div class="item">
+          <div class="buttons">
+            <div class="delete-btn">
+              <i class="fa fa-trash" style="color: rgb(12, 12, 12)"></i>
+            </div>
+
+            <div class="like-btn">
+              <i
+                
+                class="fa fa-heart"
+                style="color: red"
+              ></i>
+            </div>
+          </div>
+          <div class="image">
+            <img  width="120 " height="100" src="../shoppingcart/css/img/oo.png" alt="" />
+          </div>
+
+          <div class="description">
+            <span>IAMS PROACTIVE HEALTH
+             </span>
+          
+            <span> HEALTHY ADULT WITH CHICKEN</span>
+          </div>
+
+          <div class="quantity">
+            <span class="plus ">+</span>
+            <span class="quantite ">0</span>
+            <span class="minus ">-</span>
+          </div>
+          <div>
+            <h4 class="price ">
+            54
+            </h4>
+            <h4 class="prix "> </h4>
+
+        </div>
+    
+        </div>
+      </div>
+      <div class="lin3">
+        <div class="item">
+          <div class="buttons">
+            <div class="delete-btn">
+              <i class="fa fa-trash" style="color: rgb(12, 12, 12)"></i>
+            </div>
+
+            <div class="like-btn">
+              <i
+               
+                class="fa fa-heart"
+                style="color: red"
+              ></i>
+            </div>
+          </div>
+          <div class="image">
+            <img  width="120 " height="100" src="../shoppingcart/css/img/opp.png" alt="" />
+         
+          </div>
+
+          <div class="description">
+            <span>Tesco Chicken Cat Food </span>
+        
+            <span>Pate 100G</span>
+          </div>
+          
+          <div class="quantity">
+            <span class="plus ">+</span>
+            <span class="quantite ">0</span>
+            <span class="minus ">-</span>
+          </div>
+          <div>
+            <h4 class="price ">
+            35
+            </h4>
+            <h4 class="prix "> </h4>
+
+        </div>
+        </div>
+      </div>
+      <div class="alerttotalprix">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+         Total price :
+          <span id="som">
+            0
+          </span>      
+        </div>
+     
+    <script src="../shoppingcart/js/main.js "></script>
+  </body>
+</html>
